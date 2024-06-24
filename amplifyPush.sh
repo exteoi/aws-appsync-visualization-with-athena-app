@@ -14,8 +14,9 @@ AWSCLOUDFORMATIONCONFIG="{\
 \"profileName\":\"default\",\
 }"
 AMPLIFY="{\
-\"projectName\":\"headlessProjectName\",\
-\"envName\":\"myenvname\",\
+\"projectName\":\"ProjectName\",\
+\"envName\":\"${ENV}\",\
+\"appId\":\":\"${AWS_APP_ID}\",\
 \"defaultEditor\":\"code\"\
 }"
 FRONTEND="{\
