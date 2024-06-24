@@ -16,7 +16,7 @@ AWSCLOUDFORMATIONCONFIG="{\
 AMPLIFY="{\
 \"projectName\":\"ProjectName\",\
 \"envName\":\"env-test\",\
-\"appId\":\":\"${AWS_APP_ID}\",\
+\"appId\":\":${AWS_APP_ID}\",\
 \"defaultEditor\":\"code\"\
 }"
 FRONTEND="{\
