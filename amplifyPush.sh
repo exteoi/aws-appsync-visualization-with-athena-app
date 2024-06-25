@@ -12,6 +12,7 @@ AWSCLOUDFORMATIONCONFIG="{\
 \"configLevel\":\"project\",\
 \"useProfile\":true,\
 \"profileName\":\"default\",\
+\"AmplifyAppId\":\"${AWS_APP_ID}\"\
 }"
 AMPLIFY="{\
 \"projectName\":\"ProjectName\",\
